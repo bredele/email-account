@@ -1,0 +1,30 @@
+{
+  "name": "email-account",
+  "version": "1.0.0",
+  "description": "Return possible online access for a given email account",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/email-account.git"
+  },
+  "keywords": [
+    "email",
+    "account",
+    "online"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/email-account/issues"
+  },
+  "homepage": "https://github.com/bredele/email-account#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
