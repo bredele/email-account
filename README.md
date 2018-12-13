@@ -1,3 +1,64 @@
 # email-account
 
-Return possible online access for a given email account.
+[![Build Status](https://travis-ci.org/bredele/email-account.svg?branch=master)](https://travis-ci.org/bredele/email-account)
+ [![NPM](https://img.shields.io/npm/v/email-account.svg)](https://www.npmjs.com/package/email-account)
+ [![Downloads](https://img.shields.io/npm/dm/email-account.svg)](http://npm-stat.com/charts.html?package=email-account)
+ [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/guidelines.md)
+
+Return possible online access for a given email account. Also autofill the email input if possible.
+
+## Usage
+
+
+```js
+const account = require('email-account')
+
+suggest('hello@outlook.com')
+// => https://login.live.com?username=hello@outlook.com
+
+suggest('world@gmail.com')
+// => https://gmail.com
+```
+
+
+## Installation
+
+```shell
+npm install email-account --save
+```
+
+[![NPM](https://nodei.co/npm/email-account.png)](https://nodei.co/npm/email-account/)
+
+
+## Question
+
+For questions and feedback please use our [twitter account](https://twitter.com/bredeleca). For support, bug reports and or feature requests please make sure to read our
+<a href="https://github.com/bredele/contributing-guide/blob/master/guidelines.md" target="_blank">community guideline</a> and use the issue list of this repo and make sure it's not present yet in our reporting checklist.
+
+## Contribution
+
+email-account is an open source project and would not exist without its community. If you want to participate please make sure to read our <a href="https://github.com/bredele/contributing-guide/blob/master/guidelines.md" target="_blank">guideline</a> before making a pull request. If you have any email-account related project, component or other let everyone know in our wiki.
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2016 Olivier Wietrich
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
