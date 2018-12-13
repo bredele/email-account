@@ -13,10 +13,10 @@ Return possible online access for a given email account. Also autofill the email
 ```js
 const account = require('email-account')
 
-suggest('hello@outlook.com')
+account('hello@outlook.com')
 // => https://login.live.com?username=hello@outlook.com
 
-suggest('world@gmail.com')
+account('world@gmail.com')
 // => https://gmail.com
 ```
 
